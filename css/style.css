@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+    font-weight: 600;
+     color: royalblue;
+
+}
+
+
+h1{
+  font-size: 30px;
+  color:#110202;
+ 
+  
+}
+
+.Span{
+    color:orange;
+}
+ 
+.container{
+    display: flex;
+    padding: 20px;
+
+}
+
+.half-width{
+    width: 50%;
+    padding:20px;
+}
+
+.half-width img{
+    width: 80%;
+    padding-left: 2%;
+}
+
+
+
+.Button{
+    padding: 10px;
+    color: white;
+    border-radius:25px;
+    text-align: center;
+    text-decoration: none;
+    background-color:tomato;
+}
+
+
+.middle-banner{
+    background-image: url(/images/shapes/frame.png);
+    background-repeat: no-repeat;
+}
+
+.middle-banner img{
+    height:auto;
+    background-size: auto;
+    width: inherit;
+}
+
+
+.Recipie{
+    text-align: center;
+    position: relative;
+    
+   
+}
+
+
+
+.Recipies{
+    display: flex;
+    
+}
+
+
+.Recipies .Recipie-pic{
+    height: 220px;
+    width:100%;
+    display: block;
+   
+    
+    padding: 5px;
+    width: 350px;
+
+}
+
+.Recipie-box{
+       padding: 10px;
+        border:  none;
+        margin: 40px;
+        border-radius: 5%;
+        box-shadow: 2px 0 4px 4px whitesmoke;
+        border-image-slice: 1;
+    }
+
+.Recipie-container{
+     padding: 20px;
+}
+
+.Social-box{
+    padding-right: 70px;
+    display: flex;
+    position: relative;
+    
+    
+}
+.Social-Media{
+  text-align: center;
+  width: 1300px;
+  height:210px;
+  margin:25px;
+  border:1px;
+  border-radius: 4px;
+  box-shadow: 2px 0 4px 4px whitesmoke;
+ 
+}
+
+
+.Social{
+    padding: 50px;
+    margin-right: 150px;
+}
+
+
+
+footer{
+    margin: 20px;
+    text-align: center;
+    padding: 20px;;
+    background-color:black;
+}
+
+
+.Network{
+    columns: red;
+}
